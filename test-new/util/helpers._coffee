@@ -3,6 +3,7 @@
 # top-level `test` directory, in order to not have Mocha treat it like a test.
 #
 
+require('dotenv').config()
 {expect} = require 'chai'
 http = require 'http'
 neo4j = require '../../'

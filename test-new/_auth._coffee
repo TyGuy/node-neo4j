@@ -11,6 +11,8 @@
 # If auth is disabled or not present, every test here will be skipped.
 #
 
+require('dotenv').config()
+
 $ = require 'underscore'
 {expect} = require 'chai'
 fixtures = require './fixtures'
